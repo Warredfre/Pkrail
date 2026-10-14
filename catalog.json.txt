@@ -1,0 +1,7 @@
+{
+  "schemaVersion": 1,
+  "disclaimer": "DONNÉES DE DÉMONSTRATION. Tracé simplifié et PK synthétiques (chaînage géodésique le long de la polyligne). Ce n’est PAS le référentiel PK de SNCF Réseau, ni un tracé officiel. Remplacez ces fichiers par un catalogue géoréférencé officiel avant tout usage de terrain.",
+  "lines": [
+    "demo_nantes_bordeaux.json"
+  ]
+}

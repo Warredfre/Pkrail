@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="PK Rail">
+  <meta name="theme-color" content="#0a4219">
+  <title>PK Rail</title>
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="apple-touch-icon" href="./icon-180.png">
+  <link rel="icon" href="./icon-192.png">
+  <link rel="stylesheet" href="./app.css?v=6">
+</head>
+<body class="level-normal">
+  <div id="app">
+    <section id="position-screen" class="screen active" data-tab="position">
+      <div class="line-name" id="line-name">Chargement…</div>
+      <div class="status-line" id="status-line">Catalogue local</div>
+      <div class="pk" id="pk">PK —</div>
+      <div class="badge" id="confidence" hidden>CONFIANCE FAIBLE</div>
+      <div class="alert-card">
+        <h2 id="alert-title">🟢  NORMAL</h2>
+        <p id="alert-sub"></p>
+      </div>
+      <div class="metrics">
+        <div class="metric"><small>Vitesse</small><b id="metric-speed">—</b></div>
+        <div class="metric"><small>GPS</small><b id="metric-gps">—</b></div>
+        <div class="metric"><small>Sens</small><b id="metric-dir">—</b></div>
+        <div class="metric"><small>Écart voie</small><b id="metric-dist">—</b></div>
+      </div>
+      <div class="demo-banner" id="demo-banner" hidden></div>
+    </section>
+
+    <section class="screen" data-tab="zones">
+      <div class="panel">
+        <h1>Zones PK</h1>
+        <div class="list" id="zone-list"></div>
+        <div class="form-card" style="margin-top:16px;padding:14px">
+          <label>Nom</label>
+          <input id="zone-name" placeholder="Zone travaux" autocomplete="off">
+          <p class="help" id="zone-line-hint">La ligne est préremplie par le GPS. Vous ne la changez que si la détection s’est trompée : un PK n’a de sens que sur une ligne donnée.</p>
+          <label>Ligne</label>
+          <select id="zone-line"></select>
+          <label>PK début</label>
+          <input id="zone-start" value="120+000" inputmode="decimal">
+          <label>PK fin</label>
+          <input id="zone-end" value="135+000" inputmode="decimal">
+          <label>Couleur</label>
+          <input id="zone-color" type="color" value="#e65100">
+          <p class="error" id="zone-error"></p>
+          <button class="btn" id="save-zone" type="button">Créer la zone</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="screen" data-tab="settings">
+      <div class="panel">
+        <h1>Réglages</h1>
+        <label>Source de position</label>
+        <select id="source">
+          <option value="gps" selected>GPS — détection automatique de la ligne</option>
+          <option value="simulation">Simulation (choisir une ligne de test)</option>
+        </select>
+        <p class="help" id="gps-mode-help">
+          Par défaut vous n’avez <b>pas</b> à choisir la ligne. Le GPS est projeté sur toutes les lignes du catalogue ; celle dont le tracé est le plus proche (dans un rayon de 150&nbsp;m) est retenue, avec un verrouillage pour éviter les changements intempestifs. Si vous n’êtes près d’aucune ligne connue : « Aucune ligne détectée ».
+        </p>
+        <div id="sim-panel" hidden>
+          <label>Ligne simulée</label>
+          <select id="sim-line"></select>
+          <label>Vitesse simulation</label>
+          <select id="speed">
+            <option value="80">80 km/h</option>
+            <option value="140" selected>140 km/h</option>
+            <option value="220">220 km/h</option>
+            <option value="300">300 km/h</option>
+          </select>
+          <div class="toggle">
+            <span>Aller-retour</span>
+            <input id="pingpong" type="checkbox">
+          </div>
+          <button class="btn" id="restart-sim" type="button">Relancer la simulation (approche de zone)</button>
+          <button class="btn secondary" id="jump-orange" type="button">Sauter à 700 m de la zone</button>
+          <button class="btn secondary" id="jump-red" type="button">Sauter dans la zone</button>
+        </div>
+        <p class="help" id="gps-help">
+          GPS : Safari doit rester ouvert. Ligne suivie : Nantes → Bordeaux. Hors de ce tracé, aucune ligne n’est détectée.
+        </p>
+      </div>
+    </section>
+
+    <nav class="tabbar">
+      <button type="button" class="active" data-tab="position">Position</button>
+      <button type="button" data-tab="zones">Zones</button>
+      <button type="button" data-tab="settings">Réglages</button>
+    </nav>
+  </div>
+  <script src="./engine.js?v=6"></script>
+  <script src="./app.js?v=6"></script>
+</body>
+</html>
