@@ -1,0 +1,949 @@
+{
+  "schemaVersion": 1,
+  "lineId": "demo.nantes_bordeaux",
+  "name": "Nantes → Bordeaux",
+  "originName": "Nantes",
+  "destinationName": "Bordeaux",
+  "isOfficialData": false,
+  "dataQuality": "demo-synthetic-geodesic-chainage",
+  "disclaimer": "DONNÉES DE DÉMONSTRATION. Tracé simplifié et PK synthétiques (chaînage géodésique le long de la polyligne). Ce n’est PAS le référentiel PK de SNCF Réseau, ni un tracé officiel. Remplacez ces fichiers par un catalogue géoréférencé officiel avant tout usage de terrain.",
+  "maxSnapDistanceMeters": 150,
+  "points": [
+    {
+      "sequence": 0,
+      "pkMeters": 0.0,
+      "latitude": 47.2173,
+      "longitude": -1.5417,
+      "name": "Nantes",
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 1,
+      "pkMeters": 2702.9,
+      "latitude": 47.202822,
+      "longitude": -1.512956,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 2,
+      "pkMeters": 5406.4,
+      "latitude": 47.188344,
+      "longitude": -1.484211,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 3,
+      "pkMeters": 8110.3,
+      "latitude": 47.173867,
+      "longitude": -1.455467,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 4,
+      "pkMeters": 10814.7,
+      "latitude": 47.159389,
+      "longitude": -1.426722,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 5,
+      "pkMeters": 13519.5,
+      "latitude": 47.144911,
+      "longitude": -1.397978,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 6,
+      "pkMeters": 16224.8,
+      "latitude": 47.130433,
+      "longitude": -1.369233,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 7,
+      "pkMeters": 18930.6,
+      "latitude": 47.115956,
+      "longitude": -1.340489,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 8,
+      "pkMeters": 21636.9,
+      "latitude": 47.101478,
+      "longitude": -1.311744,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 9,
+      "pkMeters": 24343.7,
+      "latitude": 47.087,
+      "longitude": -1.283,
+      "name": "Clisson",
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 10,
+      "pkMeters": 26849.8,
+      "latitude": 47.065053,
+      "longitude": -1.290526,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 11,
+      "pkMeters": 29355.9,
+      "latitude": 47.043105,
+      "longitude": -1.298053,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 12,
+      "pkMeters": 31862.1,
+      "latitude": 47.021158,
+      "longitude": -1.305579,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 13,
+      "pkMeters": 34368.4,
+      "latitude": 46.999211,
+      "longitude": -1.313105,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 14,
+      "pkMeters": 36874.7,
+      "latitude": 46.977263,
+      "longitude": -1.320632,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 15,
+      "pkMeters": 39381.1,
+      "latitude": 46.955316,
+      "longitude": -1.328158,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 16,
+      "pkMeters": 41887.5,
+      "latitude": 46.933368,
+      "longitude": -1.335684,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 17,
+      "pkMeters": 44394.0,
+      "latitude": 46.911421,
+      "longitude": -1.343211,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 18,
+      "pkMeters": 46900.5,
+      "latitude": 46.889474,
+      "longitude": -1.350737,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 19,
+      "pkMeters": 49407.1,
+      "latitude": 46.867526,
+      "longitude": -1.358263,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 20,
+      "pkMeters": 51913.8,
+      "latitude": 46.845579,
+      "longitude": -1.365789,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 21,
+      "pkMeters": 54420.5,
+      "latitude": 46.823632,
+      "longitude": -1.373316,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 22,
+      "pkMeters": 56927.2,
+      "latitude": 46.801684,
+      "longitude": -1.380842,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 23,
+      "pkMeters": 59434.0,
+      "latitude": 46.779737,
+      "longitude": -1.388368,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 24,
+      "pkMeters": 61940.9,
+      "latitude": 46.757789,
+      "longitude": -1.395895,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 25,
+      "pkMeters": 64447.8,
+      "latitude": 46.735842,
+      "longitude": -1.403421,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 26,
+      "pkMeters": 66954.7,
+      "latitude": 46.713895,
+      "longitude": -1.410947,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 27,
+      "pkMeters": 69461.7,
+      "latitude": 46.691947,
+      "longitude": -1.418474,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 28,
+      "pkMeters": 71968.8,
+      "latitude": 46.67,
+      "longitude": -1.426,
+      "name": "La Roche-sur-Yon",
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 29,
+      "pkMeters": 74561.9,
+      "latitude": 46.652083,
+      "longitude": -1.40425,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 30,
+      "pkMeters": 77155.3,
+      "latitude": 46.634167,
+      "longitude": -1.3825,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 31,
+      "pkMeters": 79749.1,
+      "latitude": 46.61625,
+      "longitude": -1.36075,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 32,
+      "pkMeters": 82343.3,
+      "latitude": 46.598333,
+      "longitude": -1.339,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 33,
+      "pkMeters": 84937.8,
+      "latitude": 46.580417,
+      "longitude": -1.31725,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 34,
+      "pkMeters": 87532.6,
+      "latitude": 46.5625,
+      "longitude": -1.2955,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 35,
+      "pkMeters": 90127.8,
+      "latitude": 46.544583,
+      "longitude": -1.27375,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 36,
+      "pkMeters": 92723.4,
+      "latitude": 46.526667,
+      "longitude": -1.252,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 37,
+      "pkMeters": 95319.3,
+      "latitude": 46.50875,
+      "longitude": -1.23025,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 38,
+      "pkMeters": 97915.5,
+      "latitude": 46.490833,
+      "longitude": -1.2085,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 39,
+      "pkMeters": 100512.1,
+      "latitude": 46.472917,
+      "longitude": -1.18675,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 40,
+      "pkMeters": 103109.1,
+      "latitude": 46.455,
+      "longitude": -1.165,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 41,
+      "pkMeters": 105702.9,
+      "latitude": 46.431692,
+      "longitude": -1.163615,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 42,
+      "pkMeters": 108296.8,
+      "latitude": 46.408385,
+      "longitude": -1.162231,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 43,
+      "pkMeters": 110890.7,
+      "latitude": 46.385077,
+      "longitude": -1.160846,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 44,
+      "pkMeters": 113484.6,
+      "latitude": 46.361769,
+      "longitude": -1.159462,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 45,
+      "pkMeters": 116078.4,
+      "latitude": 46.338462,
+      "longitude": -1.158077,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 46,
+      "pkMeters": 118672.3,
+      "latitude": 46.315154,
+      "longitude": -1.156692,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 47,
+      "pkMeters": 121266.2,
+      "latitude": 46.291846,
+      "longitude": -1.155308,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 48,
+      "pkMeters": 123860.1,
+      "latitude": 46.268538,
+      "longitude": -1.153923,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 49,
+      "pkMeters": 126454.0,
+      "latitude": 46.245231,
+      "longitude": -1.152538,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 50,
+      "pkMeters": 129047.8,
+      "latitude": 46.221923,
+      "longitude": -1.151154,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 51,
+      "pkMeters": 131641.7,
+      "latitude": 46.198615,
+      "longitude": -1.149769,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 52,
+      "pkMeters": 134235.6,
+      "latitude": 46.175308,
+      "longitude": -1.148385,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 53,
+      "pkMeters": 136829.5,
+      "latitude": 46.152,
+      "longitude": -1.147,
+      "name": "La Rochelle",
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 54,
+      "pkMeters": 139530.3,
+      "latitude": 46.1315,
+      "longitude": -1.1282,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 55,
+      "pkMeters": 142231.3,
+      "latitude": 46.111,
+      "longitude": -1.1094,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 56,
+      "pkMeters": 144932.6,
+      "latitude": 46.0905,
+      "longitude": -1.0906,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 57,
+      "pkMeters": 147634.2,
+      "latitude": 46.07,
+      "longitude": -1.0718,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 58,
+      "pkMeters": 150336.2,
+      "latitude": 46.0495,
+      "longitude": -1.053,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 59,
+      "pkMeters": 153038.4,
+      "latitude": 46.029,
+      "longitude": -1.0342,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 60,
+      "pkMeters": 155740.8,
+      "latitude": 46.0085,
+      "longitude": -1.0154,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 61,
+      "pkMeters": 158443.6,
+      "latitude": 45.988,
+      "longitude": -0.9966,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 62,
+      "pkMeters": 161146.7,
+      "latitude": 45.9675,
+      "longitude": -0.9778,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 63,
+      "pkMeters": 163850.0,
+      "latitude": 45.947,
+      "longitude": -0.959,
+      "name": "Rochefort",
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 64,
+      "pkMeters": 166441.6,
+      "latitude": 45.931538,
+      "longitude": -0.933923,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 65,
+      "pkMeters": 169033.5,
+      "latitude": 45.916077,
+      "longitude": -0.908846,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 66,
+      "pkMeters": 171625.8,
+      "latitude": 45.900615,
+      "longitude": -0.883769,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 67,
+      "pkMeters": 174218.6,
+      "latitude": 45.885154,
+      "longitude": -0.858692,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 68,
+      "pkMeters": 176811.7,
+      "latitude": 45.869692,
+      "longitude": -0.833615,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 69,
+      "pkMeters": 179405.3,
+      "latitude": 45.854231,
+      "longitude": -0.808538,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 70,
+      "pkMeters": 181999.2,
+      "latitude": 45.838769,
+      "longitude": -0.783462,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 71,
+      "pkMeters": 184593.6,
+      "latitude": 45.823308,
+      "longitude": -0.758385,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 72,
+      "pkMeters": 187188.4,
+      "latitude": 45.807846,
+      "longitude": -0.733308,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 73,
+      "pkMeters": 189783.5,
+      "latitude": 45.792385,
+      "longitude": -0.708231,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 74,
+      "pkMeters": 192379.1,
+      "latitude": 45.776923,
+      "longitude": -0.683154,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 75,
+      "pkMeters": 194975.1,
+      "latitude": 45.761462,
+      "longitude": -0.658077,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 76,
+      "pkMeters": 197571.5,
+      "latitude": 45.746,
+      "longitude": -0.633,
+      "name": "Saintes",
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 77,
+      "pkMeters": 200233.3,
+      "latitude": 45.724214,
+      "longitude": -0.618786,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 78,
+      "pkMeters": 202895.3,
+      "latitude": 45.702429,
+      "longitude": -0.604571,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 79,
+      "pkMeters": 205557.5,
+      "latitude": 45.680643,
+      "longitude": -0.590357,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 80,
+      "pkMeters": 208219.9,
+      "latitude": 45.658857,
+      "longitude": -0.576143,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 81,
+      "pkMeters": 210882.4,
+      "latitude": 45.637071,
+      "longitude": -0.561929,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 82,
+      "pkMeters": 213545.1,
+      "latitude": 45.615286,
+      "longitude": -0.547714,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 83,
+      "pkMeters": 216208.0,
+      "latitude": 45.5935,
+      "longitude": -0.5335,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 84,
+      "pkMeters": 218871.1,
+      "latitude": 45.571714,
+      "longitude": -0.519286,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 85,
+      "pkMeters": 221534.4,
+      "latitude": 45.549929,
+      "longitude": -0.505071,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 86,
+      "pkMeters": 224197.8,
+      "latitude": 45.528143,
+      "longitude": -0.490857,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 87,
+      "pkMeters": 226861.4,
+      "latitude": 45.506357,
+      "longitude": -0.476643,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 88,
+      "pkMeters": 229525.2,
+      "latitude": 45.484571,
+      "longitude": -0.462429,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 89,
+      "pkMeters": 232189.2,
+      "latitude": 45.462786,
+      "longitude": -0.448214,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 90,
+      "pkMeters": 234853.3,
+      "latitude": 45.441,
+      "longitude": -0.434,
+      "name": "Jonzac",
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 91,
+      "pkMeters": 237768.9,
+      "latitude": 45.415,
+      "longitude": -0.429167,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 92,
+      "pkMeters": 240684.5,
+      "latitude": 45.389,
+      "longitude": -0.424333,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 93,
+      "pkMeters": 243600.1,
+      "latitude": 45.363,
+      "longitude": -0.4195,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 94,
+      "pkMeters": 246515.7,
+      "latitude": 45.337,
+      "longitude": -0.414667,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 95,
+      "pkMeters": 249431.4,
+      "latitude": 45.311,
+      "longitude": -0.409833,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 96,
+      "pkMeters": 252347.1,
+      "latitude": 45.285,
+      "longitude": -0.405,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 97,
+      "pkMeters": 254968.3,
+      "latitude": 45.26204,
+      "longitude": -0.41259,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 98,
+      "pkMeters": 257589.5,
+      "latitude": 45.23908,
+      "longitude": -0.42018,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 99,
+      "pkMeters": 260210.9,
+      "latitude": 45.21612,
+      "longitude": -0.42777,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 100,
+      "pkMeters": 262832.2,
+      "latitude": 45.19316,
+      "longitude": -0.43536,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 101,
+      "pkMeters": 265453.7,
+      "latitude": 45.1702,
+      "longitude": -0.44295,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 102,
+      "pkMeters": 268075.1,
+      "latitude": 45.14724,
+      "longitude": -0.45054,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 103,
+      "pkMeters": 270696.7,
+      "latitude": 45.12428,
+      "longitude": -0.45813,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 104,
+      "pkMeters": 273318.3,
+      "latitude": 45.10132,
+      "longitude": -0.46572,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 105,
+      "pkMeters": 275939.9,
+      "latitude": 45.07836,
+      "longitude": -0.47331,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 106,
+      "pkMeters": 278561.6,
+      "latitude": 45.0554,
+      "longitude": -0.4809,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 107,
+      "pkMeters": 281183.4,
+      "latitude": 45.03244,
+      "longitude": -0.48849,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 108,
+      "pkMeters": 283805.2,
+      "latitude": 45.00948,
+      "longitude": -0.49608,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 109,
+      "pkMeters": 286427.0,
+      "latitude": 44.98652,
+      "longitude": -0.50367,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 110,
+      "pkMeters": 289048.9,
+      "latitude": 44.96356,
+      "longitude": -0.51126,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 111,
+      "pkMeters": 291670.9,
+      "latitude": 44.9406,
+      "longitude": -0.51885,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 112,
+      "pkMeters": 294292.9,
+      "latitude": 44.91764,
+      "longitude": -0.52644,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 113,
+      "pkMeters": 296915.0,
+      "latitude": 44.89468,
+      "longitude": -0.53403,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 114,
+      "pkMeters": 299537.2,
+      "latitude": 44.87172,
+      "longitude": -0.54162,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 115,
+      "pkMeters": 302159.3,
+      "latitude": 44.84876,
+      "longitude": -0.54921,
+      "name": null,
+      "interpolation": "linear"
+    },
+    {
+      "sequence": 116,
+      "pkMeters": 304781.6,
+      "latitude": 44.8258,
+      "longitude": -0.5568,
+      "name": "Bordeaux Saint-Jean",
+      "interpolation": "linear"
+    }
+  ]
+}
